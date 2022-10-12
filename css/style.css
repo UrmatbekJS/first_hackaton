@@ -1,0 +1,143 @@
+* {
+  max-width: 1800px;
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+  font-family: "Poppins";
+}
+
+.container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+/* navbar start */
+.navbar {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #0f1624;
+}
+
+.navbar__items {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.navbar a {
+  margin-right: 80px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: navy;
+}
+.navbar input {
+  width: 166px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  backdrop-filter: blur(1px);
+  border-radius: 5px;
+}
+/* navbar end */
+
+/* main section start */
+.main__section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__section_left h2 {
+  margin: 80px 0;
+}
+
+/* main section end */
+
+/* second start */
+.second__section {
+  color: #ffffff;
+  background: #0f1624;
+}
+
+.second__section h1 {
+  text-align: center;
+}
+.second__section_items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.second__section_item h2 {
+  margin: 50px 0;
+  display: flex;
+}
+
+.second__section_item li {
+  margin: 40px 0;
+  list-style: none;
+}
+/* second end */
+
+/* third start */
+.third__section h1 {
+  text-align: center;
+}
+.third__section_items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.third__section_item h2 {
+  margin: 50px 0;
+  display: flex;
+}
+
+.third__section_item li {
+  margin: 20px 0;
+  list-style: none;
+}
+/* third end */
+
+/* footer start */
+.footer {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #0f1624;
+}
+
+.footer__items {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.footer a {
+  margin-right: 80px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: navy;
+}
+
+button {
+  height: 60px;
+  width: 201px;
+  color: #ffffff;
+  background: slateblue;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover {
+  width: 210px;
+  height: 65px;
+}
+/* footer end */

@@ -1,0 +1,18 @@
+@media all and (max-width: 1250px) {
+  .navbar__items a,
+  input {
+    display: none;
+  }
+  .main__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .main__section_right img {
+    width: 80%;
+  }
+}
